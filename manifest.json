@@ -1,0 +1,21 @@
+{
+  "name": "SavePage",
+  "version":  "1.0",
+  "description":  "Clicking browser icon saves page html",
+  "manifest_version": 2,
+
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "downloads"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/clickme-32.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }       
+}
